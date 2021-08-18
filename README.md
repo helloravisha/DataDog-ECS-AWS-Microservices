@@ -229,6 +229,7 @@ Code coverage is a measurement of how many lines/blocks/arcs of your code are ex
 
 <Br>
 We can add a coverage limit to the PR  and integrate it into CICD, if particular code coverage is not met we can stop the CICD pipeline, this requires some extra configuration.
+ 
 
 ![Alt text](docs/coverage1.png)
 ![Alt text](docs/coverage-2.png)
