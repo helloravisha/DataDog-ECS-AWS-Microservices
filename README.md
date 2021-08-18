@@ -38,12 +38,6 @@ With the above architectural components in place, shared above is a production-r
 Note:
 The reason for introducing the second parameter, though it is not an ask in the project requirement is for the extensibility of the service, with the second parameter,  we get the flexibility to tell which number system we want to convert,  today we defaulted to ROMAN, but if we need to convert to any other number system, we don't need to change the API end point, the current API is open for an extension to adopt to any number system conversion, with the same reason I haven't included the word roman numeral in the endpoint URL.
 
-<br>
-Sample endpoint looks as follows, where conversion type is completely optional and defaulted to ROMAN.
-<br>
-
-curl -X GET "http://localhost:8080/aem/api/v1/convert?conversionType=ROMAN&number=1" -H "accept: */*"
-
 
 ##### Output Fields ( ResponseBody)
 API will return the following fields , We  can update the model as per our business requirement.
@@ -53,6 +47,13 @@ API will return the following fields , We  can update the model as per our busin
 * ERRORCODE
 * ERRORMESSAGE
 * SUCCESS
+
+
+<br>
+Sample endpoint looks as follows, where conversion type is completely optional and defaulted to ROMAN.
+<br>
+
+curl -X GET "http://localhost:8080/aem/api/v1/convert?conversionType=ROMAN&number=1" -H "accept: */*"
 
 ### Swagger End point 
 <a href="http://aem-application-lb-664989903.us-west-2.elb.amazonaws.com/aem/swagger-ui.html#/number-controller">Swagger ( Click Here )</a>
