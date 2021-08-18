@@ -173,7 +173,7 @@ containers.
 ## Task 
 The task definition is a text file (in JSON format) that describes one or more containers (up to a maximum of ten) that form your application. The task definition can be thought of as a blueprint for your application.
 
-![Alt text](docs/tasks.png)
+![Alt text](docs/Tasks.png)
 
 <br>
 This is where we mention our docker image that nees to be deployed. 
@@ -263,7 +263,7 @@ Prerequisite : ( Java and Maven )
 5) Once the application is started you can test with swagger, using the following endpoint.
 4) For all DevOps capabilities please refer to the my read me above, where I leveraged different cloud services. 
 
-##Possible Enhancements
+## Possible Enhancements
 
 Application can be extended with more capabilities by adding some of the following features.
 
