@@ -121,7 +121,7 @@ same context
 
 ## Log Ingesiton & Monitoring ( Fluentd , Datadog )
 
-In today's cloud computing having containers and having  data growing exponentially and distributed we need centralized logging and a mechanism to ship the logs. In today's world there are different log shippers available in the cloud world like Filebeat, Logstash, Fluentd, etc. I had leveraged fluentd  here for ingesting the logs to Data dog which is our log monitoring  tool. fluent is configured as a side car and sits along with the container to ship the logs to the configured destination. With aws ecs we can configure the same along with the task definition, following is the configuration i made for shipping the logs from aws  ecs container.
+In today's cloud computing having containers and having  data growing exponentially ,  we need a centralized logging mechanism to ship the logs. In today's world, there are different log shippers available in the cloud world like Filebeat, Logstash, Fluentd, etc. I had leveraged fluentd  here for ingesting the logs to Data dog which is our log monitoring  tool. fluentD is configured as a side car and sits along with the container to ship the logs to the configured destination. With aws ecs,  we can configure the same along with the task definition, following is the configuration, i made for shipping the logs from aws  ecs container.
 
 Following is one of my blog post on centralized logging , which talks about different logs stacks like ELK
 <br>https://ravishajava.com/2018/08/10/log-management-kubernetes/
