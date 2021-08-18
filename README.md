@@ -130,7 +130,7 @@ offerings from datadog. we can also ship the same logs to splunk.
 
 Required configuration to push the logs to datadog, this configuration is done within the service container.
 
-![Alt text](docs/sidecar-config.png)
+![Alt text](docs/Sidecar-config.png)
 
 Once we have the above configurtion and the application is deployed , fluent but will start shipping the 
 logs to the configured target. 
