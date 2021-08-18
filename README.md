@@ -108,8 +108,9 @@ role
 I had expereince working different other monitoring tools , please find some of my blogs in the
 same context 
 
-* https://ravishajava.com/2018/08/08/elasticsearch-datasource-grapahana/
-* https://ravishajava.com/2020/03/16/code-coverage-configurations-for-maven-based-projects/
+* <a href="https://ravishajava.com/2018/08/08/elasticsearch-datasource-grapahana/" target="_blank">Graphana and ElasticSearch </a>
+* <a href="https://ravishajava.com/2020/03/16/code-coverage-configurations-for-maven-based-projects/" target="_blank">Prometheus and ElasticSearch</a>
+
 
 ## Log Ingesiton & Monitoring ( Fluentd , Datadog )
 
